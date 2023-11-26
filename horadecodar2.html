@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hora de codar 2</title>
+    <link rel="inicial.css" />
+    <link rel="stylesheet" href="inicial.css" />
+  </head>
+  <body>
+    <script>
+      /*1. Escreva um programa em que o usuário informe dois números utilizando o "prompt". Então escreva em tela o maior deles.
+
+             let num1 = prompt("digite um numero");
+             let num2 = prompt("digite outro numero");
+
+             if (num1 > num2) {
+               document.write("o primeiro numero é o maior");
+             } else {
+               document.write("o segundo numero é o maior");
+             } 
+
+      /* 2. Faça um programa que leia um valor informado pelo usuário e diga se o valor informado é positivo, negativo ou zero.
+
+             const leitura = parseInt(prompt("Digite um numero"));
+             if (leitura > 0) {document.write ("o numero é positivo")}
+             else if (leitura <0) {document.write ("o número é negativo")}
+             else if (leitura === 0 ) {document.write("o numero é 0 ")} */
+
+      /*3. Faça um programa para ler 3 valores (considere que não serão informados valores iguais) e escrever o maior deles.
+
+            const v1 = parseInt(prompt("digite um número"));
+            const v2 = parseInt(prompt("digite outro número"));
+            const v3 = parseInt(prompt("digite mais um número"));
+            let maior = num1;
+            if (num2 > maior) {
+              maior = num2;
+            }
+            if (num3 > maior) {
+              maior = num3;
+            }
+            {
+              document.write("o número maior é " + maior);
+            } */
+
+      //4. Faça um programa que leia 3 valores informados pelo usuário (considere que não serão informados valores iguais) e escrever a soma dos 2 maiores.
+      //
+
+      /*let numero1 = prompt("Escreva o primerio valor: ");
+      let numero2 = prompt("Escreva o segundo valor: ");
+      let numero3 = prompt("Escreva o terceiro valor: ");
+
+      numero1 = parseInt(numero1);
+      numero2 = parseInt(numero2);
+      numero3 = parseInt(numero3);
+
+      if (numero1 > numero3 && numero2 > numero3) {
+        let resultado = numero1 + numero2;
+        alert("A soma dos maiores valores: " + resultado);
+      } else if (numero2 > numero1 && numero3 > numero1) {
+        let resultado = numero2 + numero3;
+        alert("Maior número: " + resultado);
+      } else {
+        let resultado = numero1 + numero3;
+        alert("Maior número: " + resultado);
+      }
+
+      */
+
+      //. 5 Faça um programa que leia 6 valores informados pelo usuário, calcule, exiba os números informados e escreva a média aritmética desses valores lidos.
+
+      /* const n1 = parseInt(prompt("digite um número"));
+            const n2 = parseInt(prompt("digite outro número"));
+            const n3 = parseInt(prompt("digite mais um número"));
+            const n4 = parseInt(prompt("digite um número"));
+            const n5 = parseInt(prompt("digite outro número"));
+            const n6 = parseInt(prompt("digite mais um número"));
+
+            let soma = (n1 + n2 + n3 + n4 + n5 + n6);
+            var resultado = soma / 6
+
+            document.write = ("a média aritmética é + " resultado);*/
+
+      //6. Faça um programa que receba quatro valores informados pelo usuário, mas informe somente o primeiro, o último e o maior de todos eles (considere que todos os números informados serão diferentes)
+      /* const n1 = parseInt(prompt("digite um número"));
+            const n2 = parseInt(prompt("digite outro número"));
+            const n3 = parseInt(prompt("digite mais um número"));
+            const n4 = parseInt(prompt("digite um número"));
+
+              let maior = n1;
+            if (n2 > maior) {
+              maior = n2;
+            }
+            else if (n3 > maior) {
+              maior = n3;
+            }
+            else if ( n4 > maior) {
+              maior = n4;
+            }
+
+              document.write = ("aqui está o primeiro numero: " + n1, "o ultimo numero: " + n4, "e o maior deles é o número: " + maior;)*/
+
+      // 7. Faça um programa que leia 6 números que o usuário vai informar. Todos os números lidos com valor inferior a 72 devem ser somados. Escreva o valor final da soma efetuada e também todos valores que o usuário informou.
+
+      /*const n1 = parseInt(prompt("digite um número"));
+            const n2 = parseInt(prompt("digite outro número"));
+            const n3 = parseInt(prompt("digite mais um número"));
+            const n4 = parseInt(prompt("digite um número"));
+            const n5 = parseInt(prompt("digite outro número"));
+            const n6 = parseInt(prompt("digite mais um número"));
+
+            if (n1,n2,n3,n4,n5,n6 < 76) */
+
+      //8. Escreva um programa que calcule a média de quatro números informados pelo usuário, mas somente se esses números forem maiores que 0 e menores que 10. No final, se a média for maior que cinco o usuário receberá uma mensagem "Você passou no teste". Em qualquer outra situação, ele receberá uma mensagem de "tente novamente"
+
+      /* const n1 = parseInt(prompt("digite um número"));
+            const n2 = parseInt(prompt("digite outro número"));
+            const n3 = parseInt(prompt("digite mais um número"));
+            const n4 = parseInt(prompt("digite um número"));
+
+            //9. Escreva um programa para ler o ano de nascimento de uma pessoa e escrever uma mensagem que diga se ela poderá ou não votar este ano (não é necessário considerar o mês em que ela nasceu).*
+
+            */
+
+      /*let datadeNasc = prompt("Em qual ano você nasceu?: ");
+            dataNasc = parseInt(datadeNasc);
+
+            idade = 2023 - datadeNasc;
+
+            if (idade >= 16) {
+              alert("Você tem idade para votar");
+            } else {
+              alert("Você não tem idade para votar");
+            }*/
+
+      //10. Tendo como entrada a altura e o sexo (codificado da seguinte forma: 1: feminino 2: masculino) de uma pessoa, construa um programa que calcule e imprima seu peso ideal, utilizando as seguintes fórmulas:
+
+      /*let altura = prompt("Qual é a sua altura: ");
+            let sexo = prompt(
+              "Qual é o seu sexo: 1 (feminino) ou 2 (masculino)?"
+            );
+
+            altura = parseFloat(altura);
+            sexo = parseInt(sexo);
+
+            if (sexo == 1) {
+              let peso = 62.1 * altura - 44.7;
+              alert("Seu peso ideal é: " + peso);
+            } else {
+              let peso = 72.7 * altura - 58;
+              alert("Seu peso ideal é: " + peso);
+            }
+      */
+      /*11. Uma micro calculadora
+      Escreva um programa para ler 2 valores inteiros informados pelo usuário e uma das seguintes operações a serem executadas (codificada da seguinte forma: 1. Adição, 2. Subtração, 3. Divisão, 4. Multiplicação).
+      O programa deve calcular e escrever o resultado dessa operação sobre os dois valores lidos.
+      */
+      /*let valor1 = prompt("Digite um número: ");
+      let valor2 = prompt("Digite outro número: ");
+      let operacao = prompt(
+        "Qual operação? 1 - adição, 2 - subtração, 3 - Divisão, 4 - Multiplicação"
+      );
+
+      valor1 = parseInt(valor1);
+      valor2 = parseInt(valor2);
+      opcao = parseInt(operacao);
+
+      if (operacao == 1) {
+        let resultado = valor1 + valor2;
+        alert("Resultado da adição é: " + resultado);
+      } else if (operacao == 2) {
+        let resultado = valor1 - valor2;
+        alert("Resultado da subtração é: " + resultado);
+      } else if (operacao == 3) {
+        let resultado = valor1 / valor2;
+        alert("O valor da divisão é: " + resultado);
+      } else {
+        let resultado = valor1 * valor2;
+        alert("O valor da multiplicação é: " + resultado);
+      }
+      */
+    </script>
+  </body>
+</html>
